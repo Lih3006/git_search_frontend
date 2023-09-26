@@ -1,0 +1,103 @@
+.container__git-init {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 37px;
+  align-items: flex-start;
+  width: 100%;
+  height: 50vh;
+  background-color: var(--color-primary);
+  margin: 0 auto;
+  padding: 0 10%;
+  color: var(--color-WhiteFixed);
+}
+
+.title__git-init {
+  font-size: var(--font-title-2);
+  font-weight: var(--font-weight-title-2);
+  line-height: var(--line-height-text-1);
+}
+
+.text__git-init {
+  font-size: var(--font-text-1);
+  font-weight: var(--font-weight-text-1);
+  line-height: var(--line-height-text-1);
+}
+
+.container__git-search {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 45px;
+  align-items: stretch;
+  height: 50vh;
+  background-color: var(--color-grey-1);
+  margin: 0 auto;
+  padding: 0 10%;
+  color: var(--color-WhiteFixed);
+}
+
+.title__git-search {
+  font-size: var(--font-text-1);
+  font-weight: var(--font-weight-title-3);
+  line-height: var(--line-height-text-1);
+}
+
+.form__git-search {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.label__form--name,
+.input__git-search,
+.submit__git-search {
+  width: 100%;
+  max-width: 316px;
+  font-size: var(--font-text-4);
+  font-weight: var(--font-weight-title-3);
+  line-height: var(--line-height-text-1);
+}
+
+.input__git-search {
+  background-color: var(--color-grey-0);
+  padding: 1rem;
+  word-wrap: break-word;
+  color: var(--color-WhiteFixed);
+  font-weight: var(--font-weight-text-1);
+  border: solid 2px #ffffff12;
+}
+
+.input__git-search::placeholder {
+  white-space: pre-line;
+}
+
+.submit__git-search {
+  max-width: 316px;
+  background-color: var(--color-primary);
+  border: solid 2px #c2255c;
+  text-align: center;
+  padding: 0.875rem;
+  transition: 200ms;
+}
+
+.submit__git-search:hover {
+  background-color: var(--color-secundary);
+  border: solid 2px #d6336c;
+}
+
+@media (min-width: 900px) {
+  main {
+    display: flex;
+    height: 100%;
+  }
+
+  .container__git-init {
+    height: 100vh;
+  }
+
+  .container__git-search {
+    height: 100vh;
+  }
+}

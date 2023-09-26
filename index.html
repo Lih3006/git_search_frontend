@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--  CSS GLOBAL STYLES-->
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+
+    <!--  CSS PÁGINA -->
+    <link rel="stylesheet" href="./pages/home/styles/home.css" />
+
+    <!-- SCRIPT GLOBAL -->
+    <script type="module" src="./scripts/requests.js" defer></script>
+    <script type="module" src="./scripts/search.js" defer></script>
+    <script type="module" src="./scripts/usefulFunctions.js" defer></script>
+
+    <title>Git Search</title>
+  </head>
+  <body>
+    <main>
+      <section class="container__git-init">
+        <h1 class="title__git-init">Git Search</h1>
+        <p class="text__git-init">
+          Encontre e se conecte com profissionais de forma rápida e fácil
+        </p>
+      </section>
+      <section class="container__git-search">
+        <h2 class="title__git-search">Procurar por um usuário</h2>
+        <form action="" class="form__git-search">
+          <label for="" class="label__form label__form--name"
+            >Usuário github</label
+          >
+          <input
+            type="text"
+            class="input__git-search"
+            placeholder="Digite um usuário do github aqui..."
+            value=""
+          />
+          <a class="submit__git-search">Ver perfil do github</a>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
